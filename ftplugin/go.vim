@@ -4,6 +4,7 @@ nnoremap <buffer> <leader>i :GoImport<space>
 nnoremap <buffer> <leader>I :GoImports<cr>
 nnoremap <buffer> <leader>t :GoTestFunc<cr>
 nnoremap <buffer> <leader>T :GoTest<cr>
+nnoremap <buffer> <leader>r :GoRun<cr>
 
 " Code completetion via gocode
 imap <buffer> <c-p> <c-x><c-o>
