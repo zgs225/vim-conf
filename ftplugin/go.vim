@@ -1,4 +1,4 @@
-setlocal nolist
+setlocal list listchars=tab: ,trail:·,nbsp:·
 
 nnoremap <buffer> <leader>i :GoImport<space>
 nnoremap <buffer> <leader>I :GoImports<cr>
